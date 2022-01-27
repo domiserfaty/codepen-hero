@@ -1,0 +1,49 @@
+* {
+
+}
+
+body{
+    margin:0;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    background:transparent;
+    height:70px;
+}
+
+.nav{
+
+}
+
+.logo{
+    font-family: 'Questrial', sans-serif;
+}
+
+li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    color:white;
+    font-size:18px;
+    text-decoration:none;
+}
+
+.hero{
+    background-image: url(/img/fondo-hero.jpeg);
+    background-size: cover;
+    height: 100vh;
+    margin-top: -75px;
+}
+
+.hero-section{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
